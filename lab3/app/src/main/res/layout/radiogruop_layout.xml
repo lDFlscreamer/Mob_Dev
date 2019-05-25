@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checkedButton="@+id/radioButton4"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="220dp">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="132dp" />
+
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="181dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="238dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="132dp" />
+
+
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
